@@ -1,0 +1,143 @@
+/* InsureDocsProject/frontend/src/index.css */
+
+/* 1. Tailwind Directives (Essential - Keep at the very top) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Shadcn UI Base Variables and Styles */
+/*    (Typically includes theme variables and base element styling) */
+@layer base {
+  :root {
+    /* Default Theme (Light Mode) - Shadcn standard HSL values */
+    --background: 0 0% 100%;        /* White */
+    --foreground: 222.2 84% 4.9%;   /* Near Black */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;  /* Shadcn Primary (Often Dark Blue/Black) */
+    --primary-foreground: 210 40% 98%; /* Shadcn Primary Text (Often White) */
+
+    --secondary: 210 40% 96.1%;    /* Shadcn Secondary Background (Light Gray) */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Shadcn Secondary Text */
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%; /* Grayish text */
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;  /* Red */
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;   /* Light Gray Border */
+    --input: 214.3 31.8% 91.4%;    /* Input Border */
+    --ring: 222.2 84% 4.9%;       /* Focus Ring (often Primary color) */
+
+    --radius: 0.5rem; /* Default border radius for Shadcn */
+
+    /* Chart colors (keep if your Shadcn theme/components use them) */
+    /* --chart-1: 12 76% 61%; ... etc ... */
+  }
+
+  .dark {
+    /* Dark Theme Variables - Shadcn standard HSL values */
+    --background: 222.2 84% 4.9%;     /* Near Black */
+    --foreground: 210 40% 98%;       /* Near White */
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;          /* Shadcn Dark Primary (Often White) */
+    --primary-foreground: 222.2 47.4% 11.2%; /* Shadcn Dark Primary Text */
+
+    --secondary: 217.2 32.6% 17.5%;   /* Shadcn Dark Secondary Bg (Dark Gray/Blue) */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%; /* Lighter Gray Text */
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;     /* Darker Red */
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;      /* Dark Border */
+    --input: 217.2 32.6% 17.5%;       /* Dark Input Border */
+    --ring: 212.7 26.8% 83.9%;      /* Lighter Focus Ring */
+
+    /* Dark chart colors if needed */
+    /* --chart-1: 220 70% 50%; ... etc ... */
+  }
+}
+
+/* 3. Shadcn Base Styles Applied Using Theme Variables */
+/*    These apply the CSS variables defined above */
+@layer base {
+  * {
+    @apply border-border; /* Apply border color by default */
+  }
+  body {
+    @apply bg-background text-foreground; /* Apply bg and text color */
+    /* REMOVE font-family definition from here if using Tailwind config */
+    /* Set default font smoothing (good practice) */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Apply button styles via Tailwind classes in components, */
+  /* or define base button styles using @apply here if needed */
+  /* It's generally better to style buttons individually or create a Button component */
+}
+
+/* 4. REMOVED Default Vite Styles */
+/* The styles below from the Vite template are largely redundant or conflict */
+/* with Tailwind/Shadcn base styles and variable approach. */
+
+/*
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; <--- Handled by Tailwind config or body tag font
+  line-height: 1.5; <--- Tailwind likely handles this or set on body
+  font-weight: 400; <--- Set default in body or use Tailwind classes
+
+  color-scheme: light dark; <--- Handled by Shadcn dark mode setup
+  color: rgba(255, 255, 255, 0.87); <--- Handled by Shadcn variables
+  background-color: #242424; <--- Handled by Shadcn variables
+
+  font-synthesis: none; <--- Can keep if desired, usually safe default
+  text-rendering: optimizeLegibility; <--- Can keep if desired
+  -webkit-font-smoothing: antialiased; <--- Moved to body @layer base
+  -moz-osx-font-smoothing: grayscale; <--- Moved to body @layer base
+}
+
+a { ... } <--- Style links with Tailwind classes (e.g., text-primary hover:underline)
+
+body { <--- Most rules moved or handled by @layer base
+  margin: 0; <--- Tailwind's preflight usually resets this
+  display: flex; <--- REMOVE - Should be handled by specific page/layout components
+  place-items: center; <--- REMOVE - Should be handled by specific page/layout components
+  min-width: 320px; <--- Can keep if needed, but usually handled by component layouts
+  min-height: 100vh; <--- Can keep on body @layer base or apply to root layout component
+}
+
+h1 { ... } <--- Style headings with Tailwind classes (e.g., text-2xl font-bold)
+
+button { ... } <--- Style buttons with Tailwind/Shadcn components
+
+@media (prefers-color-scheme: light) { ... } <--- Redundant, dark mode handled by Shadcn .dark class and variables
+*/
+
+/* 5. Optional: Add Your Own Custom Base Styles (if any) */
+/* @layer base { */
+/*   Example: */
+/*   html { */
+/*     scroll-behavior: smooth; */
+/*   } */
+/* } */

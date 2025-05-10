@@ -1,0 +1,33 @@
+
+--- Page 1 (EasyOCR) ---
+SUBHABRATA NAG
+subhabrata nag@outlook.com
++9743154 9842
+in Linkedin
+Doha, Qatar
+SUMMARY
+Results-driven professional in analytics and data science product management; with expertise in leading cross-functional teams to deliver innovative; impactful solutions. Seeking senior roles in Product; Project; or Program Management within analytics, machine learning; and data science, leveraging strategic and hands-on skills honed across diverse industries (valid QID holder)
+SKILLS & TOOLS
+Agile Product/Project management: JIRA, Trello, Confluence; Notion, Cross functional leadership Development: GCP(Vertex AI), AWS, R programming, Flutter; Firebase; ML/Deep Learning frameworks Product: Prototyping, Wireframing; UI/UX, Roadmaps, Feature Prioritization Figma, Miro Industry expertise: Insurance, FMCG, Semiconductor; Advertising
+CERTIFICATION & EDUCATION
+Professional_Scrum Master AlProduct Manaqement Scrum. LOrg Duke University (Coursera)
+MSc Applied Econometrics BSc _Economics Univ. of Calcutta, India Univv. of Calcutta, India (2012-2014) (2009-2012)
+EXPERIENCE
+Caregiving Sabbatical
+Mar, 2024 Oct; 2024
+Freelance Product Manager & ML Specialist Jan; 2023 Aug; 2024 Al-Driven Auto Insurance Startup Defined the product roadmap and prioritized features using market insights and customer feedback, ensuring alignment with business goals. Led MVP design with image processing models, cutting claims processing time by 30% through automated damage assessments Initiated churn   prediction modeling;   uncovering key customer retention patterns Established infrastructure projected to reduce churn by 15% and increase retention by 10% upon deployment Led the early-stage development of an ML-driven fraud detection model, establishing a framework to reduce fraudulent claims by 40% and automate manual review efforts. Integrated fraud detection into the startup's claims workflow:
+Engagement Manager Data & Analytics Apr, 2022 Nov, 2022 MiQ Digital Engagement Lead at MiQ Digital: Delivered data-driven advertising solutions, led predictive and prescriptive analytics, and aligned use cases with organizational goals. Initiated a Quality Check program, reducing turnaround time by 50%, data errors by 70%, and enhancing insights quality:
+Associate Engagement Manager Quantiphi Inc
+Mar; 2019 Jan, 2022
+Engagement Manager at Quantiphi: Led project and product delivery using agile methodologies, managing costs, resources, and stakeholders: Drove alignment across teams; led pre-sales pitches, and guided the development of AI-powered products to foster innovation and client engagement; Managed successful MLOps projects for a semiconductor client, orchestrating data pipelines, deep learning models, and model prediction on Google Vertex Al. Achieved cost savings, 1-second prediction latency for real-time defect detection:
+
+--- Page 2 (EasyOCR) ---
+SUBHABRATA NAG
+subhabrata nag@outlook.com
++9743154 9842
+in Linkedin
+Doha, Qatar
+Engineered an advanced automated pipeline with AWS Textract and SageMaker for an insurance provider, reducing claims adjudication time from 15-24 hours to ~15 minutes Orchestrated end-to-end customer journey analysis, wireframes, and provided team leadership: Designed customer-360 insurance product,   utilizing machine  learning to deliver  personalized  experiences, cross-sell opportunities; CLTV calculation for showcasing capability: Converted sales leads averaging over S200K in business value: Led data science product for a leading US insurance provider's pricing team, leveraging AWS services like S3,EMR, and ECZ Reduced SLAs for infrastructure setup, security, and model building from weeks to days, optimizing infrastructure, security, data processing, and predictive modeling: Led end-to-end design and execution of AWS-powered data lake setup for a US insurance client; encompassing migration, data schema development; robust pipelines, and integration with analytics tools.
+Assistant Manager Research & Analytics Nov; 2015 Mar; 2019)= WNS Global Services Conducted comprehensive sales driver analysis for major US FMCG brand, resulting in strengthened partnership and expanded scope of work (S100K+) Optimized shelf space (SKU optimisation) for major US FMCG brands, across retailers, resulting in cost savings (SSmil+) and increase in prospective sales Conducted social media listening and sentiment analysis to impact marketing and brand strategies, leading to a 15% increase in engagement metrics and a 10% shift in sentiment scores: Crafted data-driven recommendations for major US retailers based on market basket analysis, pinpointing top product pairs. Achieved a targeted 10% increase in basket size and generated a sales boost of 10-15% through strategic implementation:
+Analyst Jan, 2015 Oct; 2015 Ernst & Younq Joined as part of the Tax services of EY, working for the Global Delivery Service Efficiently handled 10+ return filings per day during peak season, minimizing errors and delays. Our expertise in tax planning and filing helped our clients stay compliant with regulations, while maximizing tax savings.
+REFERENCES (*on request)

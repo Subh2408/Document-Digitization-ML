@@ -1,0 +1,375 @@
+2025-05-07 16:52:09 | INFO | app.main | Application startup sequence initiated...
+2025-05-07 16:52:09 | INFO | app.main | Checking for default users...
+2025-05-07 16:52:09 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-07 16:52:09 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-07 16:52:09 | INFO | app.main | Default user check complete.
+2025-05-07 16:52:09 | INFO | app.main | Application startup complete.
+2025-05-07 16:52:15 | INFO | app.main | Application shutting down...
+2025-05-07 16:52:59 | INFO | app.main | Application startup sequence initiated...
+2025-05-07 16:52:59 | INFO | app.main | Checking for default users...
+2025-05-07 16:52:59 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-07 16:52:59 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-07 16:52:59 | INFO | app.main | Default user check complete.
+2025-05-07 16:52:59 | INFO | app.main | Application startup complete.
+2025-05-07 16:53:02 | INFO | app.main | Root endpoint '/' accessed.
+2025-05-07 16:53:20 | WARNING | passlib.handlers.bcrypt | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-07 16:55:38 | INFO | app.main | Application shutting down...
+2025-05-07 17:42:37 | INFO | app.main | Application startup sequence initiated...
+2025-05-07 17:42:37 | INFO | app.main | Checking for default users...
+2025-05-07 17:42:37 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-07 17:42:37 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-07 17:42:37 | INFO | app.main | Default user check complete.
+2025-05-07 17:42:37 | INFO | app.main | Application startup complete.
+2025-05-07 17:42:43 | INFO | app.main | Root endpoint '/' accessed.
+2025-05-07 17:43:09 | WARNING | passlib.handlers.bcrypt | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-07 17:43:27 | INFO | app.routers.documents | User admin@example.com starting upload for file: sample-pdf.pdf
+2025-05-07 17:46:40 | INFO | app.main | Application shutting down...
+2025-05-07 17:46:42 | INFO | app.main | Application startup sequence initiated...
+2025-05-07 17:46:42 | INFO | app.main | Checking for default users...
+2025-05-07 17:46:42 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-07 17:46:42 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-07 17:46:42 | INFO | app.main | Default user check complete.
+2025-05-07 17:46:42 | INFO | app.main | Application startup complete.
+2025-05-07 17:46:47 | INFO | app.main | Application shutting down...
+2025-05-07 17:47:01 | INFO | app.main | Application startup sequence initiated...
+2025-05-07 17:47:01 | INFO | app.main | Checking for default users...
+2025-05-07 17:47:01 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-07 17:47:01 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-07 17:47:01 | INFO | app.main | Default user check complete.
+2025-05-07 17:47:01 | INFO | app.main | Application startup complete.
+2025-05-07 17:47:04 | INFO | app.main | Root endpoint '/' accessed.
+2025-05-07 17:47:48 | WARNING | passlib.handlers.bcrypt | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-07 17:48:10 | INFO | app.routers.documents | User admin@example.com starting upload for file: sample-pdf.pdf
+2025-05-07 17:48:10 | INFO | app.routers.documents | Processing upload: 'sample-pdf.pdf' -> 'eab69f0d-6161-45dc-8b87-d6d516fe021e.pdf'
+2025-05-07 17:48:10 | INFO | app.routers.documents | File saved to uploaded_documents\eab69f0d-6161-45dc-8b87-d6d516fe021e.pdf
+2025-05-07 17:48:10 | INFO | app.routers.documents | DB record created. ID: 1, Status: DocumentStatus.UPLOADED
+2025-05-07 17:48:10 | INFO | app.routers.documents | Background OCR task added for doc_id=1
+2025-05-07 17:48:10 | INFO | app.routers.documents | Upload endpoint successful for doc_id=1. Returning status: DocumentStatus.OCR_PENDING
+2025-05-07 17:48:10 | INFO | app.routers.documents | [BG Task Start doc_id=1] Starting OCR process.
+2025-05-07 17:48:10 | INFO | app.routers.documents | [BG Task OCR 1] Status updated to OCR_PROCESSING.
+2025-05-07 17:48:10 | INFO | app.ocr_utils | [OCR Task 1] Starting for PDF: uploaded_documents\eab69f0d-6161-45dc-8b87-d6d516fe021e.pdf
+2025-05-07 17:48:10 | INFO | app.ocr_utils | [OCR Task 1] Opened PDF, processing 1 pages.
+2025-05-07 17:48:11 | CRITICAL | app.ocr_utils | [OCR Task 1] TESSERACT NOT FOUND/CONFIGURED: tesseract is not installed or it's not in your PATH. See README file for more information.. Install Tesseract & check PATH/tesseract_cmd.
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 275, in run_tesseract
+    proc = subprocess.Popen(cmd_args, **subprocess_args())
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\insurance-project\backend\app\ocr_utils.py", line 100, in perform_ocr_on_pdf
+    page_text = pytesseract.image_to_string(img, lang='eng', config='--psm 3')
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 486, in image_to_string
+    return {
+           ~
+    ...<2 lines>...
+        Output.STRING: lambda: run_and_get_output(*args),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    }[output_type]()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 489, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+                           ~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 352, in run_and_get_output
+    run_tesseract(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 280, in run_tesseract
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-07 17:48:11 | ERROR | app.routers.documents | [BG Task OCR 1] ERROR: Unhandled exception during OCR: module 'fitz' has no attribute 'fitz'
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 275, in run_tesseract
+    proc = subprocess.Popen(cmd_args, **subprocess_args())
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\insurance-project\backend\app\ocr_utils.py", line 100, in perform_ocr_on_pdf
+    page_text = pytesseract.image_to_string(img, lang='eng', config='--psm 3')
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 486, in image_to_string
+    return {
+           ~
+    ...<2 lines>...
+        Output.STRING: lambda: run_and_get_output(*args),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    }[output_type]()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 489, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+                           ~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 352, in run_and_get_output
+    run_tesseract(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\pytesseract\pytesseract.py", line 280, in run_tesseract
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\insurance-project\backend\app\ocr_utils.py", line 107, in perform_ocr_on_pdf
+    raise RuntimeError("Tesseract executable not found.") from tess_err
+RuntimeError: Tesseract executable not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\insurance-project\backend\app\routers\documents.py", line 90, in run_ocr_task
+    saved_text_full_path = ocr_utils.perform_ocr_on_pdf(
+        doc_id,
+        pdf_full_path,
+        text_output_full_path
+    )
+  File "C:\Users\OMEN\Documents\insurance-project\backend\app\ocr_utils.py", line 119, in perform_ocr_on_pdf
+    except fitz.fitz.FileNotFoundError as fitz_fnf:
+           ^^^^^^^^^
+AttributeError: module 'fitz' has no attribute 'fitz'
+2025-05-07 17:48:11 | INFO | app.routers.documents | [BG Task Update 1] Updating final status to DocumentStatus.OCR_FAILED, text path to None
+2025-05-07 17:48:11 | INFO | app.routers.documents | [BG Task End doc_id=1] OCR processing function finished.
+2025-05-07 18:16:08 | INFO | app.main | Application shutting down...
+2025-05-07 18:35:24 | INFO | app.main | Application startup sequence initiated...
+2025-05-07 18:35:24 | INFO | app.main | Checking for default users...
+2025-05-07 18:35:24 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-07 18:35:24 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-07 18:35:24 | INFO | app.main | Default user check complete.
+2025-05-07 18:35:24 | INFO | app.main | Application startup complete.
+2025-05-07 18:35:37 | INFO | app.main | Root endpoint '/' accessed.
+2025-05-07 18:36:01 | WARNING | passlib.handlers.bcrypt | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-07 18:36:25 | INFO | app.routers.documents | User admin@example.com starting upload for file: sample-pdf.pdf
+2025-05-07 18:36:25 | INFO | app.routers.documents | Processing upload: 'sample-pdf.pdf' -> 'fea20e13-360a-44db-a5a6-8f094e98d169.pdf'
+2025-05-07 18:36:25 | INFO | app.routers.documents | File saved to uploaded_documents\fea20e13-360a-44db-a5a6-8f094e98d169.pdf
+2025-05-07 18:36:25 | INFO | app.routers.documents | Attempting to create database record...
+2025-05-07 18:36:25 | INFO | app.routers.documents | DB record created. ID: 2, Status: DocumentStatus.UPLOADED
+2025-05-07 18:36:25 | INFO | app.routers.documents | Adding background task for doc_id=2
+2025-05-07 18:36:25 | INFO | app.routers.documents | Attempting immediate status update to OCR_PENDING for doc_id=2
+2025-05-07 18:36:25 | INFO | app.routers.documents | Upload endpoint finished successfully for doc_id=2. Returning status: DocumentStatus.OCR_PENDING
+2025-05-07 18:36:25 | INFO | app.routers.documents | [BG Task Start doc_id=2] Starting text extract/OCR.
+2025-05-07 18:36:25 | INFO | app.routers.documents | [BG Task 2] Status updated to OCR_PROCESSING.
+2025-05-07 18:36:25 | INFO | app.ocr_utils | [Task 2] Starting hybrid text extraction/OCR for: uploaded_documents\fea20e13-360a-44db-a5a6-8f094e98d169.pdf
+2025-05-07 18:36:25 | INFO | app.ocr_utils | [Task 2] Attempting PyMuPDF text layer extraction...
+2025-05-07 18:36:25 | INFO | app.ocr_utils | [Task 2] Text layer insufficient (0/1 pages). Will attempt OCR.
+2025-05-07 18:36:25 | INFO | app.ocr_utils | [Task 2] Starting EasyOCR processing...
+2025-05-07 18:36:25 | INFO | app.ocr_utils | Initializing EasyOCR Reader (lang='en', gpu=False)...
+2025-05-07 18:36:25 | WARNING | easyocr.easyocr | Using CPU. Note: This module is much faster with a GPU.
+2025-05-07 18:36:25 | WARNING | easyocr.easyocr | Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2025-05-07 18:36:31 | INFO | easyocr.easyocr | Download complete
+2025-05-07 18:36:31 | WARNING | easyocr.easyocr | Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-05-07 18:36:34 | INFO | easyocr.easyocr | Download complete.
+2025-05-07 18:36:35 | INFO | app.ocr_utils | EasyOCR Reader initialized.
+2025-05-07 18:36:35 | INFO | app.ocr_utils | [Task 2 EasyOCR] Processing 1 pages.
+2025-05-07 18:36:46 | INFO | app.ocr_utils | [Task 2] Writing final text (from EasyOCR) to uploaded_documents\extracted_text\fea20e13-360a-44db-a5a6-8f094e98d169.txt
+2025-05-07 18:36:46 | INFO | app.ocr_utils | [Task 2] Final text saved successfully.
+2025-05-07 18:36:46 | INFO | app.routers.documents | [BG Task 2] Text Extraction/OCR successful. Relative text path: fea20e13-360a-44db-a5a6-8f094e98d169.txt
+2025-05-07 18:36:46 | INFO | app.routers.documents | [BG Task Update 2] Updating final status to DocumentStatus.OCR_COMPLETED, text path to fea20e13-360a-44db-a5a6-8f094e98d169.txt
+2025-05-07 18:36:46 | INFO | app.routers.documents | [BG Task End doc_id=2] Processing function finished.
+2025-05-07 18:37:46 | INFO | app.routers.documents | User admin@example.com starting upload for file: resume.pdf
+2025-05-07 18:37:46 | INFO | app.routers.documents | Processing upload: 'resume.pdf' -> '790a8c1a-c8bf-48e3-80aa-96dde4c343a0.pdf'
+2025-05-07 18:37:46 | INFO | app.routers.documents | File saved to uploaded_documents\790a8c1a-c8bf-48e3-80aa-96dde4c343a0.pdf
+2025-05-07 18:37:46 | INFO | app.routers.documents | Attempting to create database record...
+2025-05-07 18:37:46 | INFO | app.routers.documents | DB record created. ID: 3, Status: DocumentStatus.UPLOADED
+2025-05-07 18:37:46 | INFO | app.routers.documents | Adding background task for doc_id=3
+2025-05-07 18:37:46 | INFO | app.routers.documents | Attempting immediate status update to OCR_PENDING for doc_id=3
+2025-05-07 18:37:46 | INFO | app.routers.documents | Upload endpoint finished successfully for doc_id=3. Returning status: DocumentStatus.OCR_PENDING
+2025-05-07 18:37:46 | INFO | app.routers.documents | [BG Task Start doc_id=3] Starting text extract/OCR.
+2025-05-07 18:37:46 | INFO | app.routers.documents | [BG Task 3] Status updated to OCR_PROCESSING.
+2025-05-07 18:37:46 | INFO | app.ocr_utils | [Task 3] Starting hybrid text extraction/OCR for: uploaded_documents\790a8c1a-c8bf-48e3-80aa-96dde4c343a0.pdf
+2025-05-07 18:37:46 | INFO | app.ocr_utils | [Task 3] Attempting PyMuPDF text layer extraction...
+2025-05-07 18:37:46 | INFO | app.ocr_utils | [Task 3] Text layer insufficient (0/2 pages). Will attempt OCR.
+2025-05-07 18:37:46 | INFO | app.ocr_utils | [Task 3] Starting EasyOCR processing...
+2025-05-07 18:37:46 | INFO | app.ocr_utils | [Task 3 EasyOCR] Processing 2 pages.
+2025-05-07 18:38:21 | INFO | app.ocr_utils | [Task 3] Writing final text (from EasyOCR) to uploaded_documents\extracted_text\790a8c1a-c8bf-48e3-80aa-96dde4c343a0.txt
+2025-05-07 18:38:21 | INFO | app.ocr_utils | [Task 3] Final text saved successfully.
+2025-05-07 18:38:21 | INFO | app.routers.documents | [BG Task 3] Text Extraction/OCR successful. Relative text path: 790a8c1a-c8bf-48e3-80aa-96dde4c343a0.txt
+2025-05-07 18:38:21 | INFO | app.routers.documents | [BG Task Update 3] Updating final status to DocumentStatus.OCR_COMPLETED, text path to 790a8c1a-c8bf-48e3-80aa-96dde4c343a0.txt
+2025-05-07 18:38:21 | INFO | app.routers.documents | [BG Task End doc_id=3] Processing function finished.
+2025-05-07 19:18:06 | INFO | app.main | Application shutting down...
+2025-05-08 09:11:40 | INFO | app.main | Application startup sequence initiated...
+2025-05-08 09:11:40 | INFO | app.main | Checking for default users...
+2025-05-08 09:11:40 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-08 09:11:40 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-08 09:11:40 | INFO | app.main | Default user check complete.
+2025-05-08 09:11:40 | INFO | app.main | Application startup complete.
+2025-05-08 09:11:43 | INFO | app.main | Root endpoint '/' accessed.
+2025-05-08 09:12:06 | WARNING | passlib.handlers.bcrypt | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-08 09:12:31 | INFO | app.routers.documents | User admin@example.com starting upload for file: sample-pdf.pdf
+2025-05-08 09:12:31 | INFO | app.routers.documents | Saving 'sample-pdf.pdf' as '3681ae79-d5d4-400d-89fd-c5e86d18f8c5.pdf'
+2025-05-08 09:12:31 | INFO | app.routers.documents | File saved to uploaded_documents\3681ae79-d5d4-400d-89fd-c5e86d18f8c5.pdf
+2025-05-08 09:12:31 | INFO | app.crud | Creating document DB record for original_filename='sample-pdf.pdf', owner_id=1
+2025-05-08 09:12:31 | INFO | app.crud | Document record created with id=4, status=DocumentStatus.UPLOADED
+2025-05-08 09:12:31 | INFO | app.routers.documents | DB record created ID: 4, Status: DocumentStatus.UPLOADED
+2025-05-08 09:12:31 | INFO | app.routers.documents | Background task queued for doc_id=4
+2025-05-08 09:12:31 | INFO | app.crud | Updating status for doc_id=4 from 'DocumentStatus.UPLOADED' to 'DocumentStatus.OCR_PENDING'
+2025-05-08 09:12:31 | INFO | app.routers.documents | Upload endpoint finished for doc_id=4. Returning status: DocumentStatus.OCR_PENDING
+2025-05-08 09:12:31 | INFO | app.routers.documents | [BG Task Start doc_id=4] Starting OCR & Extraction process.
+2025-05-08 09:12:31 | INFO | app.crud | Updating status for doc_id=4 from 'DocumentStatus.OCR_PENDING' to 'DocumentStatus.OCR_PROCESSING'
+2025-05-08 09:12:31 | INFO | app.routers.documents | [BG Task 4] Status -> OCR_PROCESSING.
+2025-05-08 09:12:31 | ERROR | app.routers.documents | [BG Task 4] ERROR: Unhandled exception during processing: module 'app.ocr_utils' has no attribute 'perform_ocr_on_pdf'
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\insurance-project\backend\app\routers\documents.py", line 74, in run_ocr_and_extraction_task
+    saved_text_full_path = ocr_utils.perform_ocr_on_pdf(doc_id, pdf_full_path, text_output_full_path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.ocr_utils' has no attribute 'perform_ocr_on_pdf'
+2025-05-08 09:12:31 | INFO | app.routers.documents | [BG Task Update 4] Updating final status to DocumentStatus.OCR_FAILED
+2025-05-08 09:12:31 | INFO | app.crud | Updating status for doc_id=4 from 'DocumentStatus.OCR_PROCESSING' to 'DocumentStatus.OCR_FAILED'
+2025-05-08 09:12:31 | INFO | app.routers.documents | [BG Task End doc_id=4] Processing finished.
+2025-05-08 09:18:13 | INFO | app.main | Application shutting down...
+2025-05-08 09:18:23 | INFO | app.main | Application startup sequence initiated...
+2025-05-08 09:18:23 | INFO | app.main | Checking for default users...
+2025-05-08 09:18:23 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-08 09:18:23 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-08 09:18:23 | INFO | app.main | Default user check complete.
+2025-05-08 09:18:23 | INFO | app.main | Application startup complete.
+2025-05-08 09:18:36 | INFO | app.main | Application shutting down...
+2025-05-08 09:18:43 | INFO | app.main | Application startup sequence initiated...
+2025-05-08 09:18:43 | INFO | app.main | Checking for default users...
+2025-05-08 09:18:43 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-08 09:18:43 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-08 09:18:43 | INFO | app.main | Default user check complete.
+2025-05-08 09:18:43 | INFO | app.main | Application startup complete.
+2025-05-08 09:18:43 | INFO | app.main | Application shutting down...
+2025-05-08 09:19:18 | INFO | app.main | Application startup sequence initiated...
+2025-05-08 09:19:18 | INFO | app.main | Checking for default users...
+2025-05-08 09:19:18 | INFO | app.main | Default admin user 'admin@example.com' already exists.
+2025-05-08 09:19:18 | INFO | app.main | Default regular user 'user@example.com' already exists.
+2025-05-08 09:19:18 | INFO | app.main | Default user check complete.
+2025-05-08 09:19:18 | INFO | app.main | Application startup complete.
+2025-05-08 09:19:21 | INFO | app.main | Root endpoint '/' accessed.
+2025-05-08 09:19:40 | WARNING | passlib.handlers.bcrypt | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\OMEN\Documents\Python-installed\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-05-08 09:20:00 | INFO | app.routers.documents | User admin@example.com starting upload for file: sample-pdf.pdf
+2025-05-08 09:20:00 | INFO | app.routers.documents | Saving 'sample-pdf.pdf' as '054d60e6-1f25-4f74-9a8b-03461c012dd0.pdf'
+2025-05-08 09:20:00 | INFO | app.routers.documents | File saved to uploaded_documents\054d60e6-1f25-4f74-9a8b-03461c012dd0.pdf
+2025-05-08 09:20:00 | INFO | app.crud | Creating document DB record for original_filename='sample-pdf.pdf', owner_id=1
+2025-05-08 09:20:00 | INFO | app.crud | Document record created with id=5, status=DocumentStatus.UPLOADED
+2025-05-08 09:20:00 | INFO | app.routers.documents | DB record created ID: 5, Status: DocumentStatus.UPLOADED
+2025-05-08 09:20:00 | INFO | app.routers.documents | Background task queued for doc_id=5
+2025-05-08 09:20:00 | INFO | app.crud | Updating status for doc_id=5 from 'DocumentStatus.UPLOADED' to 'DocumentStatus.OCR_PENDING'
+2025-05-08 09:20:00 | INFO | app.routers.documents | Upload endpoint finished for doc_id=5. Returning status: DocumentStatus.OCR_PENDING
+2025-05-08 09:20:00 | INFO | app.routers.documents | [BG Task Start doc_id=5] Starting OCR & Extraction process.
+2025-05-08 09:20:00 | INFO | app.crud | Updating status for doc_id=5 from 'DocumentStatus.OCR_PENDING' to 'DocumentStatus.OCR_PROCESSING'
+2025-05-08 09:20:00 | INFO | app.routers.documents | [BG Task 5] Status -> OCR_PROCESSING.
+2025-05-08 09:20:00 | INFO | app.ocr_utils | [Task 5] Starting hybrid text extraction/OCR for: uploaded_documents\054d60e6-1f25-4f74-9a8b-03461c012dd0.pdf
+2025-05-08 09:20:00 | INFO | app.ocr_utils | [Task 5] Attempting PyMuPDF text layer extraction...
+2025-05-08 09:20:00 | INFO | app.ocr_utils | [Task 5] Text layer insufficient (0/1 pages). Will attempt OCR.
+2025-05-08 09:20:00 | INFO | app.ocr_utils | [Task 5] Starting EasyOCR processing...
+2025-05-08 09:20:00 | INFO | app.ocr_utils | Initializing EasyOCR Reader (lang='en', gpu=False)...
+2025-05-08 09:20:00 | WARNING | easyocr.easyocr | Using CPU. Note: This module is much faster with a GPU.
+2025-05-08 09:20:05 | INFO | app.ocr_utils | EasyOCR Reader initialized.
+2025-05-08 09:20:05 | INFO | app.ocr_utils | [Task 5 EasyOCR] Processing 1 pages.
+2025-05-08 09:20:21 | INFO | app.ocr_utils | [Task 5] Writing final text (from EasyOCR) to uploaded_documents\extracted_text\054d60e6-1f25-4f74-9a8b-03461c012dd0.txt
+2025-05-08 09:20:21 | INFO | app.ocr_utils | [Task 5] Final text saved successfully.
+2025-05-08 09:20:21 | INFO | app.crud | Updating OCR results for doc_id=5. Status -> DocumentStatus.OCR_COMPLETED, TextPath -> 054d60e6-1f25-4f74-9a8b-03461c012dd0.txt
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task 5] OCR successful. Status -> OCR_COMPLETED. Text path stored: 054d60e6-1f25-4f74-9a8b-03461c012dd0.txt
+2025-05-08 09:20:21 | INFO | app.crud | Updating status for doc_id=5 from 'DocumentStatus.OCR_COMPLETED' to 'DocumentStatus.EXTRACT_PROCESSING'
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task 5] Status -> EXTRACT_PROCESSING.
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task 5] Reading text file for extraction: uploaded_documents\extracted_text\054d60e6-1f25-4f74-9a8b-03461c012dd0.txt
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task 5] Applying regex extraction...
+2025-05-08 09:20:21 | INFO | app.extraction_utils | Found 0 policy numbers.
+2025-05-08 09:20:21 | INFO | app.extraction_utils | Found 0 dates.
+2025-05-08 09:20:21 | INFO | app.extraction_utils | Found 0 amounts.
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task 5] Regex extraction successful. Status -> DocumentStatus.EXTRACT_COMPLETED. Metadata keys: ['policy_numbers', 'dates', 'amounts']
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task Update 5] Updating final status to DocumentStatus.EXTRACT_COMPLETED
+2025-05-08 09:20:21 | INFO | app.crud | Updating Extraction results for doc_id=5. Status -> DocumentStatus.EXTRACT_COMPLETED, Metadata -> Present
+2025-05-08 09:20:21 | INFO | app.routers.documents | [BG Task End doc_id=5] Processing finished.
+2025-05-08 09:22:42 | INFO | app.routers.documents | User admin@example.com starting upload for file: Principal-Sample-Life-Insurance-Policy.pdf
+2025-05-08 09:22:42 | INFO | app.routers.documents | Saving 'Principal-Sample-Life-Insurance-Policy.pdf' as 'abcce22b-3092-44e8-acd3-06377c5d5d83.pdf'
+2025-05-08 09:22:42 | INFO | app.routers.documents | File saved to uploaded_documents\abcce22b-3092-44e8-acd3-06377c5d5d83.pdf
+2025-05-08 09:22:42 | INFO | app.crud | Creating document DB record for original_filename='Principal-Sample-Life-Insurance-Policy.pdf', owner_id=1
+2025-05-08 09:22:42 | INFO | app.crud | Document record created with id=6, status=DocumentStatus.UPLOADED
+2025-05-08 09:22:42 | INFO | app.routers.documents | DB record created ID: 6, Status: DocumentStatus.UPLOADED
+2025-05-08 09:22:42 | INFO | app.routers.documents | Background task queued for doc_id=6
+2025-05-08 09:22:42 | INFO | app.crud | Updating status for doc_id=6 from 'DocumentStatus.UPLOADED' to 'DocumentStatus.OCR_PENDING'
+2025-05-08 09:22:42 | INFO | app.routers.documents | Upload endpoint finished for doc_id=6. Returning status: DocumentStatus.OCR_PENDING
+2025-05-08 09:22:42 | INFO | app.routers.documents | [BG Task Start doc_id=6] Starting OCR & Extraction process.
+2025-05-08 09:22:42 | INFO | app.crud | Updating status for doc_id=6 from 'DocumentStatus.OCR_PENDING' to 'DocumentStatus.OCR_PROCESSING'
+2025-05-08 09:22:42 | INFO | app.routers.documents | [BG Task 6] Status -> OCR_PROCESSING.
+2025-05-08 09:22:42 | INFO | app.ocr_utils | [Task 6] Starting hybrid text extraction/OCR for: uploaded_documents\abcce22b-3092-44e8-acd3-06377c5d5d83.pdf
+2025-05-08 09:22:42 | INFO | app.ocr_utils | [Task 6] Attempting PyMuPDF text layer extraction...
+2025-05-08 09:22:43 | INFO | app.ocr_utils | [Task 6] Text layer deemed sufficient (64/64 pages).
+2025-05-08 09:22:43 | INFO | app.ocr_utils | [Task 6] Writing final text (from Layer) to uploaded_documents\extracted_text\abcce22b-3092-44e8-acd3-06377c5d5d83.txt
+2025-05-08 09:22:43 | INFO | app.ocr_utils | [Task 6] Final text saved successfully.
+2025-05-08 09:22:43 | INFO | app.crud | Updating OCR results for doc_id=6. Status -> DocumentStatus.OCR_COMPLETED, TextPath -> abcce22b-3092-44e8-acd3-06377c5d5d83.txt
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task 6] OCR successful. Status -> OCR_COMPLETED. Text path stored: abcce22b-3092-44e8-acd3-06377c5d5d83.txt
+2025-05-08 09:22:43 | INFO | app.crud | Updating status for doc_id=6 from 'DocumentStatus.OCR_COMPLETED' to 'DocumentStatus.EXTRACT_PROCESSING'
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task 6] Status -> EXTRACT_PROCESSING.
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task 6] Reading text file for extraction: uploaded_documents\extracted_text\abcce22b-3092-44e8-acd3-06377c5d5d83.txt
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task 6] Applying regex extraction...
+2025-05-08 09:22:43 | INFO | app.extraction_utils | Found 0 policy numbers.
+2025-05-08 09:22:43 | INFO | app.extraction_utils | Found 2 dates.
+2025-05-08 09:22:43 | INFO | app.extraction_utils | Found 10 amounts.
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task 6] Regex extraction successful. Status -> DocumentStatus.EXTRACT_COMPLETED. Metadata keys: ['policy_numbers', 'dates', 'amounts']
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task Update 6] Updating final status to DocumentStatus.EXTRACT_COMPLETED
+2025-05-08 09:22:43 | INFO | app.crud | Updating Extraction results for doc_id=6. Status -> DocumentStatus.EXTRACT_COMPLETED, Metadata -> Present
+2025-05-08 09:22:43 | INFO | app.routers.documents | [BG Task End doc_id=6] Processing finished.
+2025-05-08 11:23:49 | INFO | app.main | Application shutting down...
