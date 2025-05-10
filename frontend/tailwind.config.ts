@@ -23,7 +23,7 @@ export default {
     			sans: [
     				'Open Sans',
     				'sans-serif',
-                    'system-ui'
+    				'system-ui'
     			]
     		},
     		colors: {

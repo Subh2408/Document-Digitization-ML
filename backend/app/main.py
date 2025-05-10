@@ -61,6 +61,10 @@ origins = [
     "http://localhost:3000",  # Example: Common default for Create React App
     "http://localhost:5173",  # Example: Common default for Vite
     "http://127.0.0.1:5173", # Include 127.0.0.1 as well
+    "http://localhost:8081",
+    "http://localhost:8000",
+    "http://localhost:8082"
+
     # Add the URL where your React app will be running
 ]
 
